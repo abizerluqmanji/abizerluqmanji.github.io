@@ -1,3 +1,4 @@
+/* Base styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,16 +9,39 @@ body {
     line-height: 1.6;
 }
 
-header {
-    text-align: center;
-}
-
-header h1 {
+/* Typography */
+h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
 
-nav ul {
+h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+    margin: 2rem 0 1.5rem 0;
+}
+
+/* Layout */
+header {
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+/* Lists */
+.clean-list {
     list-style: none;
     padding: 0;
 }
@@ -33,31 +57,7 @@ nav ul li a {
     font-size: 1.2rem;
 }
 
-main {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 2rem;
-    background: #444444;
-    border-radius: 8px;
-}
-
-section {
-    margin-bottom: 3rem;
-}
-
-h2 {
-    font-size: 2.2rem;
-    margin-bottom: 1.5rem;
-}
-
-h3 {
-    font-size: 1.8rem;
-    margin: 2rem 0 1.5rem 0;
-}
-
 .info-list {
-    list-style: none;
-    padding: 0;
     margin: 2rem 0;
 }
 
@@ -71,37 +71,33 @@ h3 {
     text-decoration: underline;
 }
 
+/* Icons and Images */
+.icon-link {
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.icon-link:hover {
+    transform: scale(1.1);
+}
+
+.icon-link img {
+    width: 36px;
+    height: 36px;
+}
+
 .emoji {
     margin-right: 0.5rem;
 }
 
+/* Grid Layouts */
 .icon-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
 }
 
-.icon-grid a {
-    display: inline-block;
-    transition: transform 0.2s ease;
-}
-
-.icon-grid a:hover {
-    transform: scale(1.1);
-}
-
-.icon-grid img {
-    width: 36px;
-    height: 36px;
-}
-
-footer {
-    text-align: center;
-    margin-top: 2rem;
-    color: #fff;
-    font-size: 1rem;
-}
-
+/* Experience Section */
 .experience-list {
     display: flex;
     flex-direction: column;
@@ -112,15 +108,6 @@ footer {
     display: flex;
     align-items: center;
     gap: 1.5rem;
-}
-
-.experience-item a {
-    display: inline-block;
-    transition: transform 0.2s ease;
-}
-
-.experience-item a:hover {
-    transform: scale(1.1);
 }
 
 .experience-item img {
@@ -143,7 +130,16 @@ footer {
     font-size: 1rem;
 }
 
-.experience-details .dates {
+/* Utility Classes */
+.text-muted {
     color: #aaaaaa;
     font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1rem;
 }
