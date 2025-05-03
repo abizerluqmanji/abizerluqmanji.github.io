@@ -101,3 +101,49 @@ footer {
     color: #fff;
     font-size: 1rem;
 }
+
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.experience-item {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.experience-item a {
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.experience-item a:hover {
+    transform: scale(1.1);
+}
+
+.experience-item img {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+}
+
+.experience-details {
+    flex: 1;
+}
+
+.experience-details h4 {
+    font-size: 1.3rem;
+    margin: 0 0 0.25rem 0;
+}
+
+.experience-details p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.experience-details .dates {
+    color: #aaaaaa;
+    font-size: 0.9rem;
+}
