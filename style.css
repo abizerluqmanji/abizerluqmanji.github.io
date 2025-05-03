@@ -1,15 +1,13 @@
-/* Base styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #333333;
-    color: #ffffff;
+    background: #0d1117;
+    color: #f0f6fc;
     font-size: 18px;
     line-height: 1.6;
 }
 
-/* Typography */
 h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -25,7 +23,6 @@ h3 {
     margin: 2rem 0 1.5rem 0;
 }
 
-/* Layout */
 header {
     text-align: center;
 }
@@ -40,7 +37,6 @@ section {
     margin-bottom: 3rem;
 }
 
-/* Lists */
 .clean-list {
     list-style: none;
     padding: 0;
@@ -52,7 +48,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #f0f6fc;
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -67,11 +63,9 @@ nav ul li a {
 }
 
 .info-list a {
-    color: #ffffff;
-    text-decoration: underline;
+    color: #f0f6fc;
 }
 
-/* Icons and Images */
 .icon-link {
     display: inline-block;
     transition: transform 0.2s ease;
@@ -90,7 +84,6 @@ nav ul li a {
     margin-right: 0.5rem;
 }
 
-/* Grid Layouts */
 .icon-grid {
     display: flex;
     flex-wrap: wrap;
@@ -130,16 +123,11 @@ nav ul li a {
     font-size: 1rem;
 }
 
-/* Utility Classes */
 .text-muted {
-    color: #aaaaaa;
-    font-size: 0.9rem;
+    color: #9198a1;
 }
 
-/* Footer */
 footer {
     text-align: center;
-    margin-top: 2rem;
-    color: #fff;
     font-size: 1rem;
 }
