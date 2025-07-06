@@ -109,7 +109,6 @@ nav ul li a {
 
 .experience-item {
     display: flex;
-    align-items: center;
     gap: 1.5rem;
 }
 
