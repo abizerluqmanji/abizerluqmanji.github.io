@@ -90,10 +90,6 @@ nav ul li a {
     height: 36px;
 }
 
-.emoji {
-    margin-right: 0.5rem;
-}
-
 .icon-grid {
     display: flex;
     flex-wrap: wrap;
